@@ -1,0 +1,17 @@
+.divine-couple{position:relative;display:flex;justify-content:center;gap:10px;margin:20px 8px 42px;padding:22px 8px 15px;border:1px solid #d8ae5f66;background:#fff2}
+.divine-couple:before{content:'伴侣';position:absolute;top:-12px;left:50%;transform:translateX(-50%);padding:2px 14px;background:#12302b;color:#dcb55e;font-size:13px;letter-spacing:.18em}
+.divine-couple:after{content:'';position:absolute;left:50%;bottom:-42px;height:42px;border-left:1px solid #d8ae5f88}
+.divine-couple .tree-node{min-width:118px;background:#e2b85e}
+.couple-families{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:22px 5px 10px}
+.family-pair{position:relative;padding:24px 6px 10px;border:1px solid #d8ae5f55;background:#fff1}
+.family-pair>span{position:absolute;top:-10px;left:50%;transform:translateX(-50%);white-space:nowrap;padding:1px 9px;background:#12302b;color:#dcb55e;font-size:11px}
+.family-pair>div{display:flex;justify-content:center;gap:5px}
+.family-pair .tree-node{min-width:86px}
+.family-pair aside{display:flex;justify-content:center;margin-top:25px;position:relative}
+.family-pair aside:before{content:'';position:absolute;top:-25px;height:25px;border-left:1px dotted #d8ae5f88}
+.standalone-avatars{display:flex;justify-content:center;gap:8px;margin-top:22px;padding-top:28px;border-top:1px solid #d8ae5f44}
+.standalone-avatars .tree-node{min-width:105px}
+.couple-cluster{position:absolute;z-index:0;border:1px solid #d8ae5f66;border-radius:8px;background:#d8ae5f0d;box-shadow:inset 0 0 35px #d8ae5f0a}
+.couple-cluster span{position:absolute;top:-12px;left:50%;transform:translateX(-50%);padding:2px 14px;background:#0d2925;color:#e1b95e;font-size:13px;letter-spacing:.16em;white-space:nowrap}
+.graph-stage svg{z-index:1}.graph-node{z-index:2}
+@media(max-width:900px){.divine-couple{gap:6px}.divine-couple .tree-node{min-width:105px}.couple-families{grid-template-columns:1fr}.family-pair .tree-node{min-width:104px}}
