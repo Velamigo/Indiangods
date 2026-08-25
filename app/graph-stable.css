@@ -1,0 +1,12 @@
+/* Relationship map uses fixed coordinates; later generic card rules must never change its positioning. */
+.graph-stage{width:1600px!important;height:1350px!important}
+.graph-stage svg{height:1350px!important}
+.graph-node{position:absolute!important;width:160px!important;min-width:160px!important;max-width:160px!important;height:228px!important;overflow:hidden!important;margin:0!important;transform:none!important}
+.graph-node>i{display:block!important;width:160px!important;height:140px!important;min-height:140px!important;background-color:#d9ad50!important;background-size:contain!important;background-position:center center!important}
+.graph-node>em{position:absolute!important;top:130px!important;right:8px!important;margin:0!important;padding:3px 7px!important;line-height:1.2!important}
+.graph-node>div{height:88px!important;box-sizing:border-box!important;padding:10px 7px 6px!important;overflow:hidden!important}
+.graph-node b{font-size:18px!important;line-height:1.2!important;margin:0!important;white-space:nowrap!important;overflow:hidden!important;text-overflow:ellipsis!important}
+.graph-node span{font-size:11px!important;line-height:1.25!important;margin:4px 0!important;white-space:nowrap!important;overflow:hidden!important;text-overflow:ellipsis!important}
+.graph-node small{display:block!important;font-size:10px!important;line-height:1.2!important;white-space:nowrap!important;overflow:hidden!important;text-overflow:ellipsis!important}
+.couple-cluster{height:260px!important}
+@media(max-width:700px){.graph-stage{width:1600px!important;min-width:1600px!important;height:1350px!important}.graph-scroll{padding-left:14px!important;padding-right:14px!important}.graph-node{width:160px!important}.couple-cluster{height:260px!important}}
